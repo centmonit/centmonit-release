@@ -1,0 +1,4 @@
+{
+  "api_base_url": "http://API_HOST:API_PORT",
+  "socket_url": "ws://API_HOST:API_PORT/socket"
+}
