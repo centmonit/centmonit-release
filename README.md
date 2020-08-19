@@ -12,23 +12,23 @@ In case you know it, yeap, the company behind Monit has [M/Monit](https://www.mm
 
 # 2. Screenshoot
 
-Hosts report
+**Hosts report**
 
 ![img here](demo/cm1.png)
 
-Live events
+**Live events**
 
 ![img here](demo/cm2.png)
 
-Services detail
+**Services detail**
 
 ![![img here]()](demo/cm3.png)
 
-Slack/SMTP alert channel
+**Slack/SMTP alert channel**
 
 ![![img here]()](demo/channel-form.png)
 
-Alert rules definition
+**Alert rules definition**
 
 ![![img here]()](demo/alert-rules.png)
 
