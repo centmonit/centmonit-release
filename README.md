@@ -32,9 +32,11 @@ In case you know it, yeap, the company behind Monit has [M/Monit](https://www.mm
 
 ![![img here]()](demo/alert-rules.png)
 
-**Alert notifications**
+**Email alert notifications**
 
 ![![img here]()](demo/mail-alert.png)
+
+**Slack alert notifications**
 
 ![![img here]()](demo/slack-alert.png)
 
