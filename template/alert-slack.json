@@ -1,0 +1,51 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "{{.Icon}} *{{.Sender}} - {{.Status}} Notification*:"
+      }
+    }, {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Date:* {{.DateTime}}"
+      }
+    }, {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Host:* {{.Host}}"
+      }
+    }, {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Service:* {{.Service}}"
+      }
+    }, {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Type:* {{.ServiceType}}"
+      }
+    }, {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Description:* {{.Description}}"
+      }
+    }, {
+			"type": "divider"
+		}, {
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+          "text": "*Alert by CentMonit* - your another faithful employee"
+				}
+			]
+		}
+  ]
+}

@@ -9,5 +9,9 @@ auth:
 
 log:
   maxFiles: 25
-  maxFileSize: 5 # in Mb
+  maxFileSizeInMB: 5
   retentionDays: 15
+
+alert:
+  workers: 5 # total round-robin workers for alert event processing
+  eventBuffer: 10 # event capacity size for each alert worker

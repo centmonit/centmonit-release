@@ -1,4 +1,4 @@
-# Overview
+# 1. Overview
 
 CentMonit will help you centralize all your Monit agents reports into a single **simple & beautiful** dashboard.
 
@@ -10,20 +10,29 @@ In case you missed it:
 In case you know it, yeap, the company behind Monit has [M/Monit](https://www.mmonit.com) for you to manage all Monit servers. But with so many features, its cost would make you disappointed and... its web UX/UI may also make you uncomfortable.
 
 
-# Screenshoot
+# 2. Screenshoot
 
-_Hosts report_
+Hosts report
+
 ![img here](demo/cm1.png)
 
-_Live events_
+Live events
+
 ![img here](demo/cm2.png)
 
-_Services detail_
+Services detail
 
 ![![img here]()](demo/cm3.png)
 
+Slack/SMTP alert channel
 
-# Architecture
+![![img here]()](demo/channel-form.png)
+
+Alert rules definition
+
+![![img here]()](demo/alert-rules.png)
+
+# 3. Architecture
 
 ![](demo/arch.png)
 
@@ -37,7 +46,7 @@ CentMonit has two main components:
 
 Please note that, the API URL (host and port) must be accessible both from the agents’ network and system admin’s network.
 
-# Setups
+# 4. Setups
 
 Clone this repository to your server, then go to bin directory to create a softlink to right binary version.
 An example on Linux system:
@@ -47,13 +56,13 @@ ln -sf centmonit-linux centmonit
 ```
 
 
-# Configurations
+# 5. Configurations
 
 
-## CentMonit
+## 5.1. CentMonit
 
 
-### Net group
+### 5.1.1 Net group
 
 Suppose that the Master Server’s public IP is **<code>100.1.2.3</code>** and its private one is **<code>192.168.1.1</code>**.
 
@@ -87,7 +96,7 @@ To see help, just issue:
 
 
 
-### Auth group
+### 5.1.2. Auth group
 
 CentMonit supports HTTP Basic Auth with compatible htpasswd configuration, e.x:
 
@@ -120,7 +129,7 @@ user:$apr1$hRQ3/ItK$z/hIyKxm2aby00x0L/JqA0
 
 
 
-## Monit Agent
+## 5.2. Monit Agent
 
 For Monit agent to send report data to CentMonit, edit its configuration file (usually at **<code>/etc/monitrc</code>**) as follow:
 
@@ -138,6 +147,6 @@ Then, restart the monit daemon process.
 **Now visit the web dashboard with default account (john/snow) to view the result.**
 
 
-# Limitation
+# 6. Limitation
 
 At this version, only maximum 02 Monit agents are supported.
