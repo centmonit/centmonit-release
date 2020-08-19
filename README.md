@@ -10,7 +10,7 @@ In case you missed it:
 In case you know it, yeap, the company behind Monit has [M/Monit](https://www.mmonit.com) for you to manage all Monit servers. But with so many features, its cost would make you disappointed and... its web UX/UI may also make you uncomfortable.
 
 
-# 2. Screenshoot
+# 2. Features by screenshoots
 
 **Hosts report**
 
