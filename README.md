@@ -159,4 +159,4 @@ Then, restart the monit daemon process.
 
 We give it free for 02 Monit agents forever.
 If you need more, pls check the purchase form in Dashboard.
-I promise that the cost will be very reasonable!
+we promise that the cost will be very reasonable!
