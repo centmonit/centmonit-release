@@ -155,6 +155,8 @@ Then, restart the monit daemon process.
 **Now visit the web dashboard with default account (john/snow) to view the result.**
 
 
-# 6. Limitation
+# 6. Go Premium
 
-At this version, only maximum 02 Monit agents are supported.
+We give it free for 02 Monit agents forever.
+If you need more, pls check the purchase form in Dashboard.
+I promise that the cost will be very reasonable!
