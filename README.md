@@ -158,5 +158,7 @@ Then, restart the monit daemon process.
 # 6. Go Premium
 
 We give it free for 02 Monit agents forever.
-If you need more, pls check the purchase form in Dashboard.
-We promise that the cost will be very reasonable!
+If you need more, pls check the purchase form in Dashboard:
+
+![img here](demo/license.png)
+
